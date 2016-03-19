@@ -26,9 +26,9 @@ Change the root password, if required.
 
 3. Populate the "cellar" database
 ```sh
-	mysql cellar -h $DOCKER_HOST_IP -u root -p < cellar.sql
+	mysql -h $DOCKER_HOST_IP -u root -p cellar < cellar.sql
 ```
-This assumes the $DOCKER_HOST_IP variable populated.
+This assumes the $DOCKER_HOST_IP variable populated pointing to the Docker Host.
 You may omit the -h argument if the Docker engine runs directly on your machine.
 
 ### Usage
