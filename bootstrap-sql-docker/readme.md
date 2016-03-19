@@ -18,7 +18,6 @@ curl -O https://raw.githubusercontent.com/gmolto/backbone-cellar/master/cellar.s
 ```
 
 2. Run a MySQL Docker container
-
 ```sh
 docker run --name mysql -p 3306:3306 -e MYSQL_USER=root -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=cellar -d mysql
 ```
