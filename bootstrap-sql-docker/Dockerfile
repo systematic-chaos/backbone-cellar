@@ -8,7 +8,7 @@ RUN yum -y update && \
     php \
     php-mysql
 
-COPY src/ /var/www/html
+COPY . /var/www/html
 
 RUN sed -i s/None/All/g /etc/httpd/conf/httpd.conf
 
