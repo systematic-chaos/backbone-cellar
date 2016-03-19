@@ -1,4 +1,4 @@
-FROM centos:7
+FROM fedora:23
 
 MAINTAINER Germán Moltó - gmolto@dsic.upv.es
 
