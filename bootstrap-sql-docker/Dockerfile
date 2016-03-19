@@ -12,6 +12,8 @@ COPY . /var/www/html
 
 RUN sed -i s/None/All/g /etc/httpd/conf/httpd.conf
 
+RUN mkdir -p /var/log/httpd
+
 EXPOSE 80
 
 ENTRYPOINT ["apachectl", "-DFOREGROUND"]
