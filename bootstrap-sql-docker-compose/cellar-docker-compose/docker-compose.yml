@@ -1,7 +1,7 @@
 version: '2'
 services:
   cellar:
-    image: cursocloudaws/backbone-cellar-sql-docker
+    image: cursocloudaws/backbone-cellar-sql-docker-compose
     env_file:
       - services-variables.env
     links:
