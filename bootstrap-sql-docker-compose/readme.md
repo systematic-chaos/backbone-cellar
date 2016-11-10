@@ -22,7 +22,7 @@ The following environment variables are consulted by the PHP application:
 
 ### Deploy application via Docker Compose
 
-Use the [following Docker Compose](https://github.com/gmolto/backbone-cellar/blob/master/bootstrap-sql-docker-compose/cellar-docker-compose/docker-compose.yaml).
+Use the [following Docker Compose file](https://github.com/gmolto/backbone-cellar/blob/master/bootstrap-sql-docker-compose/cellar-docker-compose/docker-compose.yml).
 
 Deploy the application (MySQL and Cellar Application containers) with:
 ```
