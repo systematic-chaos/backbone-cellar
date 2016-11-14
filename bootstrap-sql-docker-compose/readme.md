@@ -28,4 +28,4 @@ Deploy the application (MySQL and Cellar Application containers) with:
 ```
 docker-compose up -d
 ```
-Connect to http://<doker-host-ip>. The application will be listening in port 80.
+Connect to http://doker-host-ip. The application will be listening in port 80.
